@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+.revista{
+	float: left;
+	margin:0px;
+
+
+}
+
+a{
+    color: 	#8b0000;
+}
+
+a:hover{
+    color: 	#CD5C5C;
+}
+
+a:visited{
+    color: 	#8b0000;
+}
+
+.revista h3{
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 15px;
+	font-size: 1em;
+	display: block;
+
+	
+	
+}
+
+.navbar-default, .header_view {
+    background-color: #820000;
+    border-color: #470505;
+    border-radius: 7px;
+}
+
+.navbar-default .nav>li>a, .header_view .nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-default .nav>li>a:hover, .header_view .nav>li>a:hover {
+    color: #FDEFEF;
+}
+
+/*img-thumbnail*/
+
+
+.descri_revista{
+
+	margin-bottom: 20px;
+	
+}
+
+.contiene_mini{
+	width: 45%;
+height: auto;
+
+	overflow: hidden;
+	
+	float:left;
+	margin-right: 10px;
+
+}
+.miniatura {
+	max-width: 100%;
+	
+	
+}
+
+.descri_revista{
+
+	margin-bottom: 20px;
+	
+}
+
+.contiene_info{
+	float: left;
+	width: 50%;
+}
+.sin_foto{
+	background-color: #dde5ed;
+	border: 1px solid black;
+	text-align: center;
+	color: #a9b5c0;
+	width: 45%;
+	height: 200px;
+	padding-top: 60px;
+	float: left;
+		margin-right: 10px;
+
+}
+
+.index-site__journals li{
+	margin-bottom: 30px;
+}
+.btn{
+	margin-bottom: 5px;
+	font-size: 0.7em;
+}
+
+.main__title{
+	margin:0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+.about_site{
+margin:0px;
+	margin-top: 15px;
+}
+.main__content{
+	margin-bottom: 0px;
+}
+.main-footer{
+	padding: 0px;
+}
+.additional-footer-info{
+	padding-bottom: 30px;
+}
+
+
+
+.campos{
+	float: left;
+
+}
+
+.btn-form{
+	float: left;
+	}
+
+
+.caja_busqueda{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: 50px;
+	margin: 0px auto;
+
+	margin-top: 5px;
+
+}
+
+.formulario{
+	   margin: 0px auto;
+    width: 400px;
+    /* background: pink; */
+    height: 35px;
+    padding: 10px;
+}
+
+.input{
+	height: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: none;
+	font-size: 15px;
+
+}
+.main-header{
+	background: #fff;
+}
+
+
+
+.btn-primary{
+	background-color: #8b0000;
+    border-color: #8b0000;
+
+}
+
+.btn-primary:hover{
+	background-color: #CD5C5C;
+    border-color: #CD5C5C;
+
+}
+
+.btn-primary:visited{
+	background-color: #8b0000;
+    border-color: #8b0000;
+
+}
+
+
+.btn-secondary:hover{
+	background-color: #CD5C5C !important;
+}
+
+
+.main-header__admin-link, .main-header__lang-link{
+background-color: #96bc1e !important;
+	
+}
+
+.main-header__title{
+	float:left;
+}
+
+.logo-unc{
+	float: left;
+	width: 20%;
+	padding-top: 48px;
+	text-align: right;
+}
+
+.logo-oca{
+	float: left;
+	width: 20%;
+	padding-top: 25px;
+	
+}
+
+.logo-oca img{
+	width: 75%;
+}
+.logo-unc img{
+	width: 100%;
+
+}
+
+.main-header__title{
+	width: 60%;
+}
+
+.main-header__title img{
+	width: 70%;
+}
+.clear{
+	clear: both;
+}
+
+body{
+	max-width: 1300px;
+	margin:0px auto;
+}
+
+.row{
+	margin: 0px;
+}
+
+@media (max-width: 600px) {
+	.main-header__title{
+	width: 100%;
+	}
+
+	.main-header__title img {
+	    width: 100%;
+	}
+	.logo-oca img{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.logo-oca{
+		
+		width: 100%;
+		
+		
+	}
+
+	 .logo-unc{
+		display: none;		
+	}
+
+.campos{
+	float: none;
+margin-bottom: 0px !important;
+}
+.caja_busqueda{
+	height: 90px;
+	
+
+}
+
+.btn-form{
+	width: 100%;
+}
+.formulario {
+	width: 100%;
+}
+
+}
